@@ -1,0 +1,19 @@
+{
+  "name": "pdpfinal",
+  "version": "1.0.0",
+  "description": "Trabajo final react.js y node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresh16/Books.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresh16/Books/issues"
+  },
+  "homepage": "https://github.com/andresh16/Books#readme"
+}
