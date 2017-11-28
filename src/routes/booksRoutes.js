@@ -3,7 +3,7 @@
 module.exports = function (app) {
     var bookController = require('../controllers/bookController');
 
-    // user Routes
+    // Books Routes
     app.route('/book/create')
         .post(bookController.createBook);
 

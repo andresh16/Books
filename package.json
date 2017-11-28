@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andresh16/Books.git"
+    "url": "git+https://github.com/andresh16/Books_backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andresh16/Books/issues"
+    "url": "https://github.com/andresh16/Books_backend/issues"
   },
-  "homepage": "https://github.com/andresh16/Books#readme",
+  "homepage": "https://github.com/andresh16/Books_backend#readme",
   "devDependencies": {
     "eslint": "^4.10.0",
     "nodemon": "^1.11.0"
