@@ -13,5 +13,5 @@ module.exports = function (app) {
         .put(bookController.updateBook)
         .delete(bookController.deleteBook);
     //Busca libros por titulo o autor
-    app.route('/books/findByTitleOrAuthor').post(bookController.findByTitleOrAuthor);
+    app.route('/books/:keyword').get(bookController.findByTitleOrAuthor);
 };

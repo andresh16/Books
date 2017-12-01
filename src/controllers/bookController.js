@@ -12,8 +12,8 @@ exports.listAllBooks = function (req, res) {
 };
 
 exports.findByTitleOrAuthor = function (req, res) {
-    let obj = req.body;
-    Books.find({ $or: [{ 'title': { $regex: "^.*" + obj.title + ".*$" } }, { 'author': { $regex: "^.*" + obj.author + ".*$" } }] }, function (err, books) {
+    let keyword = req.params.keyword;
+    Books.find({ $or: [{ 'title': { $regex: "^.*" + keyword + ".*$" } }, { 'author': { $regex: "^.*" + keyword + ".*$" } }] }, function (err, books) {
         if (err)
             res.status(400).send(err);
         res.status(200).json(books);
