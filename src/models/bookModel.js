@@ -30,6 +30,10 @@ const booksSchema = new Schema({
     gender: {
         type: String,
         required: [true, mandatory]
+    },
+    urlImage: {
+        type: String,
+        required: [true, mandatory]
     }
 });
 
